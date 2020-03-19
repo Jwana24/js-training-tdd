@@ -8,6 +8,10 @@
  */
 
 // Your code:
+const escapeStr = "\/\ \/ \` \" \'"; // anti-slash pour échapper chaque élément. Pour échapper l'anti-slash lui-même, faire : \/\
+
+
+
 
 //* Begin of tests
 const assert = require('assert');
