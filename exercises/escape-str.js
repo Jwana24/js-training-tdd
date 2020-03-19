@@ -8,7 +8,7 @@
  */
 
 // Your code:
-const escapeStr = "\/\ \/ \` \" \'"; // anti-slash pour échapper chaque élément. Pour échapper l'anti-slash lui-même, faire : \/\
+const escapeStr = "\/\\/\`\"\'"; // anti-slash pour échapper chaque élément. Pour échapper l'anti-slash lui-même, faire : \/\
 
 
 

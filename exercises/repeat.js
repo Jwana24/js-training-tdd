@@ -8,6 +8,20 @@
  */
 
 // Your code:
+function repeat(string, number)
+{
+    let repeatString = "";
+
+    while (number > 0)
+    {
+        repeatString += string;
+        number--;
+    }
+
+    return repeatString;
+}
+
+
 
 //* Begin of tests
 const assert = require('assert');
