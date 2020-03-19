@@ -9,10 +9,17 @@
 // Your code:
 function sentence(arr)
 {
-    for(let i = 0; i < arr.length; i++)
+    // return arr.join(" ");
+    let str = '';
+    arr.forEach(function(i, index)
     {
-        return ` ${arr[i]} `;
-    }
+        str += i;
+        if (index != (arr.length - 1))
+        {
+            str += ' ';
+        };
+    });
+    return str;
 }
 
 
