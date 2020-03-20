@@ -12,7 +12,7 @@ function repeat(string, number)
 {
     let repeatString = "";
 
-    while (number > 0)
+    while(number > 0)
     {
         repeatString += string;
         number--;
