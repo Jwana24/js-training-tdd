@@ -8,6 +8,12 @@
  */
 
 // Your code:
+function capitalize(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(); // charAt() sélectionne l'élément selon l'index indiqué entre les parenthèse, 0 ici pour le premier élément donc la première lettre du mot
+}
+
+
 
 //* Begin of tests
 const assert = require('assert');
