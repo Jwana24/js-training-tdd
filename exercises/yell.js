@@ -20,5 +20,5 @@ const assert = require('assert');
 // assert.fail('You must write your own tests');
 assert.strictEqual(typeof yell, 'function');
 assert.strictEqual(yell.length, 1);
-assert.strictEqual(yell("je m'apelle johanna"), "JE M'APELLE JOHANNA");
+assert.strictEqual(yell("je m'appelle johanna"), "JE M'APPELLE JOHANNA");
 // End of tests */
